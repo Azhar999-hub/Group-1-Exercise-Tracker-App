@@ -8,6 +8,7 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 // style={{background:"#1976d2", color:"white"}}
+
 const SmCard = (props) => {
   let { userName, description, duration, date, editClick, deleteClick } = props;
 
