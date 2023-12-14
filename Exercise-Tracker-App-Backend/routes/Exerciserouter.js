@@ -8,8 +8,6 @@ import Exercise from '../models/Exercisesmodel.js';
 dotenv.config();
 const route = express.Router();
 
-// const JWT_SECRET = "hvvsavxvb346787bsa()aichsdbcbsbdbcdshj877jnnf63487883nndf8enjjdss64[]{";
-
 // Middleware to authenticate JWT token
 const authenticateToken = (req, res, next) => {
   const token = req.headers.authorization;
